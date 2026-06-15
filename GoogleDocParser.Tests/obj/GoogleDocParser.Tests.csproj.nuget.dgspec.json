@@ -1,0 +1,170 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser.Tests/GoogleDocParser.Tests.csproj": {}
+  },
+  "projects": {
+    "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser.Tests/GoogleDocParser.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser.Tests/GoogleDocParser.Tests.csproj",
+        "projectName": "GoogleDocParser.Tests",
+        "projectPath": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser.Tests/GoogleDocParser.Tests.csproj",
+        "packagesPath": "/Users/sowmyachidambaram/.nuget/packages/",
+        "outputPath": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sowmyachidambaram/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/GoogleDocParser.csproj": {
+                "projectPath": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/GoogleDocParser.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.14.1, )"
+            },
+            "WireMock.Net": {
+              "target": "Package",
+              "version": "[1.6.6, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/sowmyachidambaram/.dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/GoogleDocParser.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/GoogleDocParser.csproj",
+        "projectName": "GoogleDocParser",
+        "projectPath": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/GoogleDocParser.csproj",
+        "packagesPath": "/Users/sowmyachidambaram/.nuget/packages/",
+        "outputPath": "/Users/sowmyachidambaram/VS Code Repos/GoogleDoc /GoogleDocParser/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/sowmyachidambaram/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.200"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.12.4, )"
+            },
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/Users/sowmyachidambaram/.dotnet/sdk/10.0.203/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

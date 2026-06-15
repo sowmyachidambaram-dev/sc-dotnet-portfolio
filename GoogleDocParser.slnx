@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="GoogleDocParser.Tests/GoogleDocParser.Tests.csproj" />
+  <Project Path="GoogleDocParser/GoogleDocParser.csproj" />
+</Solution>

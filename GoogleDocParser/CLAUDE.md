@@ -134,6 +134,45 @@ All exceptions are caught in `Program.cs`, printed to `stderr`, and exit with co
 
 ---
 
+## Unit and Integration Testing
+
+Test project: `GoogleDocParser.Tests/` (targets `net8.0`, xUnit v2.9.x)
+
+```
+GoogleDocParser.Tests/
+├── GoogleDocParser.Tests.csproj
+├── Helpers/
+│   └── FakeHttpMessageHandler.cs     ← configurable stub for HttpMessageHandler
+├── Unit/
+│   └── PublishedDocServiceTests.cs   ← 14 tests, no network calls
+└── Integration/
+    └── PublishedDocServiceIntegrationTests.cs  ← 8 tests, WireMock.Net stub server
+```
+
+### Running tests
+
+```bash
+dotnet test GoogleDocParser.Tests/GoogleDocParser.Tests.csproj
+```
+
+### Test approach
+
+| Layer | What's faked | What's real |
+|-------|-------------|-------------|
+| Unit | `FakeHttpMessageHandler` replaces `HttpClient` transport | HTML parsing, row mapping, exception wrapping |
+| Integration | WireMock.Net spins up a local HTTP server | `HttpClient` + full parsing stack |
+
+### Key test packages
+
+| Package | Purpose |
+|---------|---------|
+| `xunit` 2.9.x | Test framework (provides global `Xunit` usings automatically) |
+| `WireMock.Net` | Real HTTP stub server for integration tests |
+| `Microsoft.Extensions.Configuration` | `ConfigurationBuilder` / `AddInMemoryCollection` in test setup |
+| `coverlet.collector` | Code coverage via `dotnet test --collect:"XPlat Code Coverage"` |
+
+---
+
 ## Extending This Project
 
 ### Point to a different Google Doc
