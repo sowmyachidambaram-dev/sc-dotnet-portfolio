@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/ApiRateLimiter.Api/ApiRateLimiter.Api.csproj" />
+    <Project Path="src/ApiRateLimiter.Core/ApiRateLimiter.Core.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ApiRateLimiter.Tests/ApiRateLimiter.Tests.csproj" />
+  </Folder>
+</Solution>
