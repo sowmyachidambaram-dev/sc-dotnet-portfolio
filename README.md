@@ -29,7 +29,11 @@ Unit testing with xUnit / NUnit
 
 🧰 Tech Stack
 
-Technology Usage : C#Primary language (95%)ASP.NET CoreWeb API & middlewareT-SQLData layer / stored procedures.NET SDKRuntime & toolingxUnit / NUnitAutomated testing
+Technology Usage : C#  Primary language (95%)
+ASP.NET Core : Web API & middleware
+T-SQL : Data layer / stored procedures
+.NET SDK : Runtime & tooling
+xUnit / NUnit : Automated testing
 
 
 🚀 Getting Started
